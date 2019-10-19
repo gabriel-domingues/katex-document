@@ -2,7 +2,8 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    node: true
+    node: true,
+    mocha: true
   },
   extends: ['airbnb', 'prettier'],
   globals: {
@@ -16,7 +17,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['prettier', 'react'],
+  plugins: ['prettier', 'mocha', 'react'],
   rules: {
     'prettier/prettier': ['error']
   }
