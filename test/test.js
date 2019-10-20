@@ -1,5 +1,6 @@
+import katexDoc from '../lib';
+
 const assert = require('assert');
-const katexDoc = require('../src');
 
 describe('katex-document', () => {
   it('should return the same string when $ and $$ are not present', () => {
