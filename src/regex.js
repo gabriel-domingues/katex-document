@@ -7,5 +7,5 @@
 // // Finds New Commands
 // const macro = /\\newcommand{[\s\S]+?}\[[\s\S]+?\]/g;
 
-export const inlineLatex = /\$[\s\S]+?\$|\\\([\s\S]+?\\\)/g;
+export const mathLatex = /\$\$[\s\S]+?\$\$|\$[\s\S]+?\$|\\\[[\s\S]+?\\\]|\\\([\s\S]+?\\\)/g;
 export const blockLatex = /\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]/g;
